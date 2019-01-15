@@ -14,3 +14,4 @@ D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.csproj.CopyComplete
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.exe
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.pdb
+D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.csprojAssemblyReference.cache

@@ -88,5 +88,65 @@ namespace EasyTools.UI
 
             textBox2.Text = textBox1.Text.Substring(0, textBox1.Text.Length - exlen);
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            lblout.Text = Path.Combine(textBox3.Text, "out");
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if(!Directory.Exists(lblout.Text))
+            {
+                Directory.CreateDirectory(lblout.Text);
+            }
+
+            string[] files = Directory.GetFiles(textBox3.Text);
+            string exf = "";
+
+            ImageFormat imgfmt = null;
+
+            switch (comboBox1.SelectedIndex)
+            {
+                case 0:
+                    exf = ".jpg";
+                    imgfmt = ImageFormat.Jpeg;
+                    break;
+                case 1:
+                    exf = ".gif";
+                    imgfmt = ImageFormat.Gif;
+                    break;
+                case 2:
+                    exf = ".png";
+                    imgfmt = ImageFormat.Png;
+                    break;
+                case 3:
+                    exf = ".bmp";
+                    imgfmt = ImageFormat.Bmp;
+                    break;
+            }
+            foreach (string f in files)
+            {
+               try
+                {
+                    using (ImageChanged image = new ImageChanged(f))
+                    {
+                        string filename = Path.GetFileNameWithoutExtension(f);
+
+                        string outfile = Path.Combine(lblout.Text, filename + exf);
+
+                        if (checkBox1.Checked)
+                        {
+                            image.Resize((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+                        }
+                        image.Save(outfile, imgfmt);
+                    }
+                }
+                catch {
+
+                }
+            }
+        }
     }
 }

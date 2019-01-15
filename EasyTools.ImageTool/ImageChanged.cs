@@ -29,6 +29,14 @@ namespace EasyTools.Tools
             image.Save(path, format);
         }
 
+        public void Resize(int width,int height)
+        {
+            Image p = new Bitmap(width, height);
+            Graphics g = Graphics.FromImage(p);
+            g.DrawImage(image, 0, 0, width, height);
+            image = p;
+        }
+
         public void Dispose()
         {
             if (image != null)
