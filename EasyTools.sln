@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTools.UI", "EasyTools.UI\EasyTools.UI.csproj", "{2B6EAA79-CC42-4FF1-9E23-8D259BDE4354}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTools.Tools", "EasyTools.ImageTool\EasyTools.Tools.csproj", "{81ACB616-9494-4B52-BB37-D5B95A2DB42A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +25,11 @@ Global
 		{2B6EAA79-CC42-4FF1-9E23-8D259BDE4354}.Release|Mixed Platforms.Build.0 = Release|x86
 		{2B6EAA79-CC42-4FF1-9E23-8D259BDE4354}.Release|x86.ActiveCfg = Release|x86
 		{2B6EAA79-CC42-4FF1-9E23-8D259BDE4354}.Release|x86.Build.0 = Release|x86
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{81ACB616-9494-4B52-BB37-D5B95A2DB42A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7918C550-E98F-43DC-9EBE-5420D8C9E2FC}
 	EndGlobalSection
 EndGlobal

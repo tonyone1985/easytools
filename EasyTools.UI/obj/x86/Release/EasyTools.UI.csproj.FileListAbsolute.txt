@@ -1,11 +1,8 @@
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\bin\Release\EasyTools.UI.exe.config
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\bin\Release\EasyTools.UI.exe
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\bin\Release\EasyTools.UI.pdb
-D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\bin\Release\EasyTools.Tools.dll
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\bin\Release\Interop.NATUPNPLib.dll
-D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\bin\Release\EasyTools.Tools.pdb
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.FileSplitFrm.resources
-D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.Form1.resources
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.ImgFrm.resources
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.Properties.Resources.resources
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.UpnpFrm.resources
@@ -15,3 +12,5 @@ D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.exe
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.pdb
 D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.csprojAssemblyReference.cache
+D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.TextSearch.resources
+D:\BaiduNetdiskDownload\CSTools\EasyTools\EasyTools.UI\obj\x86\Release\EasyTools.UI.Main.resources
