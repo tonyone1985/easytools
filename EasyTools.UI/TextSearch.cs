@@ -54,11 +54,15 @@ namespace EasyTools.UI
                 {
                     richTextBox1.Text = File.ReadAllText(item.Path,code);
                 }
-                lblfilepath.Text = item.Path;                
-                richTextBox1.SelectionStart = richTextBox1.GetFirstCharIndexFromLine(item.Line);
-                richTextBox1.SelectionLength = 0;
-                richTextBox1.Focus();
-                richTextBox1.ScrollToCaret();
+                try
+                {
+                    lblfilepath.Text = item.Path;
+                    richTextBox1.SelectionStart = richTextBox1.GetFirstCharIndexFromLine(item.Line);
+                    richTextBox1.SelectionLength = 0;
+                    richTextBox1.Focus();
+                    richTextBox1.ScrollToCaret();
+                }
+                catch { }
 
 
             }
@@ -144,6 +148,7 @@ namespace EasyTools.UI
             System.Diagnostics.Process p = new System.Diagnostics.Process();
             p.StartInfo.FileName = "notepad++";
             p.StartInfo.Arguments = lblfilepath.Text;
+            p.Start();
         }
         int fcnt = 0;
         private void button3_Click(object sender, EventArgs e)
